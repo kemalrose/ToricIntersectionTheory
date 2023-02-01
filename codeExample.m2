@@ -2,8 +2,8 @@
 needsPackage "tropicalToric"
 load "intersection.m2"
 
---This is the code accompanying example 5.14.
---mons0 and mons1 are the vertices of the poytopes P0 and P1 respectively.
+-- This is the code accompanying example 5.14.
+-- mons0 and mons1 are the vertices of the poytopes P0 and P1 respectively.
 
 mons0 = transpose matrix {{0,0,0},{1,0,0},{0,1,0},{1,1,0},{0,0,1},{1,0,1},{0,1,1}};
 mons1 = transpose matrix {{0,0,0},{1,0,0},{0,1,0},{5,5,5},{0,0,1}};
