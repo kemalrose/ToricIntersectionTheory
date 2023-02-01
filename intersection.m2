@@ -1,8 +1,6 @@
 
 
 
-needsPackage "tropicalToric"
-
 appropriateCompactification = (mons0, mons1) -> (
     P := minkowskiSum(convexHull mons0, convexHull mons1);
     newMons := matrix apply(entries vertices P, vert -> apply(vert, i->numerator i));
@@ -34,6 +32,7 @@ expectedNumberOfCriticalPoints = (Y,mons0,mons1) ->(
     WC := WClass(c1E0,c1E1,c1F1, c1F2, c1F3);
     degCycle (c1E1 * WC)
 )
+
 
 numberOfCriticalPoints = (mons0,mons1) -> (
     R = QQ[X1,X2,X3];
