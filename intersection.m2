@@ -42,5 +42,7 @@ numberOfCriticalPoints = (mons0,mons1) -> (
     (degree (((ideal(f1, IW):ideal(X1)):ideal(X2)):ideal(X3)), degree (ideal(f1, IW)))
 )
 
-
-
+fiberBundle = (Y,mons0,mons1) -> (
+    
+    normalToricVariety()
+)

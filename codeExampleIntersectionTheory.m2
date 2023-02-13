@@ -18,7 +18,7 @@ X = appropriateCompactification(mons0, mons1)
 (c1F1,c1F2, c1F3) = chernF(X,mons0,mons1);
 WC = c1F1 * c1F2 + c1F1 * c1F3 + c1F2 * c1F3 - (c1F1 + c1F2 + c1F3) * (c1E0 + c1E1) + c1E0 * c1E1 + c1E0 * c1E0 + c1E1 * c1E1;
 
--- The following product of cycles is the number 69 
+-- The following product of cycles has degree 69 
 degCycle (c1E1 * WC)
 
 -- This is equal to the number of critical points of a generic objective f0 and constraint f1 with fixed supports A0 and A1:
